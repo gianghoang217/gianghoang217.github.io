@@ -87,9 +87,16 @@ hr {
   margin-right: 30px;
 }
 
-.profile-img {
+
+  @media screen and (max-width: 480px) and (min-width: 320px) {
+      /* For mobile phones: */
+  * {
+      box-sizing: border-box;
+  }
+  .profile-img {
+  display:block;
   border-radius: 50%;
-}
+  } }
 
 .pro {
   text-decoration: underline;
