@@ -13,6 +13,12 @@ h1 {
   color: #66bfbf;
 }
 
+ol, ul { 
+  padding-left: 0; 
+  list-style-position: inside; 
+}
+
+
 h2 {
   color: #66bfbf;
   font-family: "Montserrat", sans-serif;
