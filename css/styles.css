@@ -13,18 +13,20 @@ h1 {
   color: #66bfbf;
 }
 
-ol, ul { 
-  padding-left: 0; 
-  list-style-position: inside; 
+ol,
+ul {
+  padding-left: 0;
+  list-style-position: outside;
 }
 
 
 h2 {
   color: #66bfbf;
   font-family: "Montserrat", sans-serif;
-  font-size: 2rem;
+  font-size: 1.7rem;
   font-weight: normal;
-  padding-bottom: 10px;
+  padding-bottom: 3px;
+  text-align: center;
 }
 
 h3 {
@@ -34,13 +36,19 @@ h3 {
 
 p {
   line-height: 2;
+  font-family: "Montserrat", sans-serif;
+}
+
+li {
+  margin: 0 0 17px 0;
+  font-family: "Montserrat", sans-serif;
 }
 
 a {
-  color: #11999e;
+  color: black;
   font-family: "Montserrat", sans-serif;
-  margin: 10px 20px;
-  text-decoration: none;
+  /* margin: 10px 20px; */
+  /* text-decoration: none; */
 }
 
 a:hover {
@@ -51,13 +59,14 @@ hr {
   border: dotted #eaf6f6 6px;
   border-bottom: none;
   width: 4%;
-  margin: 100px auto;
+  margin: 50px auto;
 }
 
 .top {
   background-color: #e4f9f5;
   position: relative;
-  padding-top: 70px;
+  padding-top: 50px;
+  height: 20%;
 }
 
 .top-cloud {
@@ -73,23 +82,29 @@ hr {
 }
 
 .middle-container {
-  margin: 100px 0;
+  margin: 50px auto 50px auto;
 }
 
 .bottom-container {
   background-color: #66bfbf;
-  padding: 50px 0 20px;
+  padding: 30px 0 10px;
 }
 
 .experience-row {
   width: 50%;
-  margin: 100px auto 100px auto;
+  margin: 50px auto 50px auto;
+  text-align: left;
+}
+
+.skills {
+  width: 50%;
+  margin: 50px auto 50px auto;
   text-align: left;
 }
 
 .company-img {
   float: left;
-  width: 25%;
+  width: 100px;
   margin-right: 30px;
 }
 
@@ -97,14 +112,17 @@ hr {
   border-radius: 50%;
 }
 
-  @media screen and (max-width: 600px) {
-      /* For mobile phones: */
+@media screen and (max-width: 400px) {
+
+  /* For mobile phones: */
   * {
-      box-sizing: border-box;
+    box-sizing: border-box;
   }
+
   .profile-img {
-  display:block;
-  } }
+    display: block;
+  }
+}
 
 .pro {
   text-decoration: underline;
@@ -155,7 +173,7 @@ hr {
 
 /* Style all font awesome icons */
 .fa {
-  padding: 10px;
+  /* padding: 10px; */
   font-size: 20px;
   width: 17px;
   text-align: center;
